@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Chapter1 Example1</title>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+</head>
+<body>
+  <h1>Introduction</h1>
+  <label>My name:</label>
+  <input id="input-name" type="text" placeholder="Please enter name" />
+  <br />
+  <label>My favorite color:</label>
+  <select id="select-color">
+    <option>Please select</option>
+    <option>red</option>
+    <option>yellow</option>
+    <option>magenta</option>
+  </select>
+  <h3 id="heading-name" style="display:none">Hello! My name is <span id="span-name"></span>.</h3>
+  <h3></h3>
+  <h3 id="heading-color" style="display:none">
+    My favorite color is <span id="span-color">&nbsp;&nbsp;</span>.</h3>
+  <script>
+    $(document).ready(function() {
+      $("#input-name").keyup(function() {
+        var name = $("#input-name").val();
+        if (name) {
+          $("#span-name").text(name);
+          $("#heading-name").show();
+        } else {
+          $("#heading-name").hide();
+        }
+      });
+      $("#select-color").change(function() {
+        var color = $("#select-color").val();
+        if (color != "Please select") {
+          $("#span-color").css('background-color', color);
+          $("#span-color").attr('title', color);
+          $("#heading-color").show();
+        } else {
+          $("#heading-color").hide();
+        }
+      });
+    });
+  </script>
+</body>
+</html>

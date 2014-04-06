@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+  <meta charset="utf-8" />
+  <title>Chapter1 Example13</title>
+  <script src="http://code.angularjs.org/1.2.15/angular.js"></script>
+</head>
+<body ng-controller="ExampleController">
+  <h1>Game setup</h1>
+  <div ng-repeat="player in players">
+    <my-player />
+  </div>
+  <script>
+  (function() {
+    "use strict";
+    var myAppModule = angular.module('myApp', []);
+    myAppModule.factory('playerService', function() {
+      var playerIndex = 0;
+      return {
+        createPlayer: function() {
+          playerIndex += 1;
+          return {
+            id: playerIndex,
+            name: "Player" + playerIndex
+          };
+        }
+      };
+    });
+    myAppModule.controller('ExampleController', ['$scope', 'playerService',
+      function($scope, playerService) {
+        $scope.players = [playerService.createPlayer(), playerService.createPlayer()];
+      }
+    ]);
+    myAppModule.directive('myPlayer', function() {
+      return {
+        restrict: 'E',
+        templateUrl: 'player.html'
+      };
+    });
+  }());
+</script>
+</body>
+</html>
