@@ -10,9 +10,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-
                 <h1>Game setup</h1>
-
             </div>
             <div class="row">
                 <div class="col-md-6">
@@ -23,37 +21,38 @@
                 </div>
             </div>
         </div>
-        <script>
-            (function () {
-                "use strict";
-                var myAppModule = angular.module('myApp', []);
-                myAppModule.factory('playerService', function () {
-                    var playerIndex = 0;
-                    return {
-                        createPlayer: function () {
-                            playerIndex += 1;
-                            return {
-                                id: playerIndex,
-                                name: "Player" + playerIndex
-                            };
-                        }
-                    };
-                });
-                myAppModule.controller('ExampleController', ['$scope', 'playerService',
-                  function ($scope, playerService) {
-                      $scope.players = [playerService.createPlayer(), playerService.createPlayer()];
-                  }
-                ]);
-                myAppModule.directive('myPlayer', function () {
-                    return {
-                        restrict: 'E',
-                        templateUrl: 'player.html',
-                        scope: {
-                            player: "="
-                        }
-                    };
-                });
-            }());
-        </script>
+    </div>
+    <script>
+        (function () {
+            "use strict";
+            var myAppModule = angular.module('myApp', []);
+            myAppModule.factory('playerService', function () {
+                var playerIndex = 0;
+                return {
+                    createPlayer: function () {
+                        playerIndex += 1;
+                        return {
+                            id: playerIndex,
+                            name: "Player" + playerIndex
+                        };
+                    }
+                };
+            });
+            myAppModule.controller('ExampleController', ['$scope', 'playerService',
+              function ($scope, playerService) {
+                  $scope.players = [playerService.createPlayer(), playerService.createPlayer()];
+              }
+            ]);
+            myAppModule.directive('myPlayer', function () {
+                return {
+                    restrict: 'E',
+                    templateUrl: 'player.html',
+                    scope: {
+                        player: "="
+                    }
+                };
+            });
+        }());
+    </script>
 </body>
 </html>
