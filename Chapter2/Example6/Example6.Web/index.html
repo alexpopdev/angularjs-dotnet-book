@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8" />
+    <title>Chapter2 Example6</title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+</head>
+<body ng-controller="ExampleController">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>Game setup</h1>
+            </div>
+            <div class="col-md-3">
+                <button class="button" ng-click="callwindowsetTimeout()">Call windows.setTimeout()</button>
+            </div>
+            <div class="col-md-3">
+                <button class="button" ng-click="call$timeout()">Call $timeout() service</button>
+            </div>
+            <div class="col-md-3">
+                <button class="button" ng-click="callwindowsetTimeoutWithin$scope$apply()">Call windows.setTimeout() within $scope.$apply</button>
+            </div>
+            <div class="col-md-3">
+                <button class="button" ng-click="reset()">Reset data</button>
+            </div>
+            <div ng-show="players.length > 0" class="row">
+                <div class="col-md-6">
+                    <my-player player="players[0]" />
+                </div>
+                <div class="col-md-6">
+                    <my-player player="players[1]" />
+                </div>
+            </div>
+            <div ng-show="players.length == 0" class="row">
+                <div class="col-md-12 text-center">
+                    Creating players ...
+                </div>
+            </div>
+            <script src="scripts/angular.js"></script>
+            <script src="scripts/app/app.js"></script>
+            <script src="scripts/app/services/playerService.js"></script>
+            <script src="scripts/app/controllers/exampleController.js"></script>
+            <script src="scripts/app/directives/myPlayer.js"></script>
+</body>
+</html>
