@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8" />
+    <title>Chapter2 Example7</title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+</head>
+<body ng-controller="ExampleController">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Game setup</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="nav nav-pills">
+                    <li ng-class="{true: 'active', false:''}[$location.path() == '/singleplayer']"><a href="#/singleplayer">Single player</a></li>
+                    <li ng-class="{active: isMultiplayerView}"><a href="#/multiplayer">Multiplayer</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row" ng-view>
+        </div>
+    </div>
+    <script src="scripts/angular.js"></script>
+    <script src="scripts/angular-route.js"></script>
+    <script src="scripts/app/app.js"></script>
+    <script src="scripts/app/services/playerService.js"></script>
+    <script src="scripts/app/controllers/exampleController.js"></script>
+    <script src="scripts/app/directives/myPlayer.js"></script>
+</body>
+</html>
