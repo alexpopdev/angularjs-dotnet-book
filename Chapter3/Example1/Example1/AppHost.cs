@@ -2,7 +2,7 @@
 
 namespace Example1
 {
-    public class AppHost : AppHostHttpListenerBase
+    public class AppHost : AppHostBase
     {
         public AppHost()
             : base("Chapter3 Example1", typeof (AppHost).Assembly)
@@ -11,7 +11,6 @@ namespace Example1
 
         public override void Configure(Funq.Container container)
         {
-
         }
     }
 }
