@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Example2
+namespace Example2.Web
 {
     public class Global : System.Web.HttpApplication
     {

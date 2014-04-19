@@ -2,7 +2,7 @@
 using System.Linq;
 using ServiceStack.ServiceHost;
 
-namespace Example2
+namespace Example2.Web
 {
     public class PlayersService : IService
     {
