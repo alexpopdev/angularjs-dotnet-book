@@ -1,7 +1,7 @@
 ﻿using System;
 using ServiceStack.WebHost.Endpoints;
 
-namespace Example2.Web
+namespace Example3.Web
 {
     public class AppHost : AppHostBase
     {
