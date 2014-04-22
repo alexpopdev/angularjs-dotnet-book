@@ -103,6 +103,7 @@
     <Compile Include="Player.cs" />
     <Compile Include="PlayersRepository.cs" />
     <Compile Include="PlayersService.cs" />
+    <Compile Include="PlayerValidator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <PropertyGroup>

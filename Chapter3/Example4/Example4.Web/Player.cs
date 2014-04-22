@@ -1,5 +1,4 @@
-﻿using ServiceStack.FluentValidation;
-using ServiceStack.ServiceHost;
+﻿using ServiceStack.ServiceHost;
 
 namespace Example4.Web
 {
@@ -11,14 +10,5 @@ namespace Example4.Web
         public string FirstName { get; set; }
 
         public string LastName { get; set; }
-    }
-
-    public class PlayerValidator : AbstractValidator<Player>
-    {
-        public PlayerValidator()
-        {
-            RuleFor(p => p.FirstName).NotEmpty();
-            RuleFor(p => p.LastName).NotEmpty();
-        }
     }
 }
