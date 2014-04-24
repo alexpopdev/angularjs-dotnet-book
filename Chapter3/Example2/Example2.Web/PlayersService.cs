@@ -6,12 +6,12 @@ namespace Example2.Web
 {
     public class PlayersService : IService
     {
-        public List<Player> Get(GetPlayersRequest request)
+        public List<Player> Get(GetPlayers request)
         {
             return GetPlayers();
         }
 
-        public Player Get(GetPlayerRequest request)
+        public Player Get(GetPlayer request)
         {
             return GetPlayers().Single(p => p.Id == request.Id);
         }
@@ -27,12 +27,12 @@ namespace Example2.Web
     }
 
     [Route("/players", "GET")]
-    public class GetPlayersRequest : IReturn<List<Player>>
+    public class GetPlayers : IReturn<List<Player>>
     {
     }
 
     [Route("/players/{Id}", "GET")]
-    public class GetPlayerRequest : IReturn<Player>
+    public class GetPlayer : IReturn<Player>
     {
         public int Id { get; set; }
     }
