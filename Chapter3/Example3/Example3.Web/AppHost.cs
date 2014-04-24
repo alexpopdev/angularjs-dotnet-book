@@ -12,7 +12,7 @@ namespace Example3.Web
 
         public override void Configure(Funq.Container container)
         {
-            RequestFilters.Add((request, response, requestData) =>
+            RequestFilters.Add((request, response, requestDTO) =>
             {
                 if(!request.IsSecureConnection)
                 {
