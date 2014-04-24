@@ -4,7 +4,7 @@ using ServiceStack.ServiceHost;
 namespace Example4.Web
 {
     [Route("/players", "GET")]
-    public class GetPlayersRequest : IReturn<List<Player>>
+    public class GetPlayers : IReturn<List<Player>>
     {
     }
 }

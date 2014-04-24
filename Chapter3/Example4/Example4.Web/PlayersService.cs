@@ -8,12 +8,12 @@ namespace Example4.Web
     {
         public PlayersRepository Repository { get; set; }
 
-        public List<Player> Get(GetPlayersRequest request)
+        public List<Player> Get(GetPlayers request)
         {
             return Repository.GetPlayers();
         }
 
-        public Player Get(GetPlayerRequest request)
+        public Player Get(GetPlayer request)
         {
             return Repository.GetPlayers().Single(p => p.Id == request.Id);
         }
