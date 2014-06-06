@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+  <meta charset="utf-8" />
+  <title>Chapter1 Example11</title>
+  <script src="http://code.angularjs.org/1.2.15/angular.js"></script>
+</head>
+<body ng-controller="ExampleController">
+  <h1>Game setup</h1>
+  <div>
+    <h2 ng-repeat-start="player in players">Player {{$index + 1}}</h2>
+    <label>Name:</label>
+    <input type="text" placeholder="Please enter player {{$index + 1}} name" ng-model="player.name" ng-focus="player.onNameFocused()">
+    <h3 ng-show="player.name">Player {{$index + 1}} name is {{player.name}}.</h3>
+    <h3 ng-repeat-end ng-show="player.previousName">Previous Player {{$index + 1}} name was {{player.previousName}}.</h3>
+  </div>
+  <script>
+    (function() {
+      "use strict";
+      var myAppModule = angular.module('myApp', []);
+      myAppModule.factory('playerService', function() {
+        var playerCount = 0;
+        var createDefaultPlayer = function() {
+          playerCount += 1;
+          var player = {
+            name: "",
+            previousName: ""
+          };
+          player.onNameFocused = function() {
+            player.previousName = player.name;
+          };
+          return player;
+        };
+        return {
+          createPlayer: function(name) {
+            var player = createDefaultPlayer();
+            player.name = name;
+            return player;
+          },
+          getPlayerCount: function() {
+            return playerCount;
+          }
+        };
+      });
+      myAppModule.controller('ExampleController', ['$scope', 'playerService',
+        function($scope, playerService) {
+          $scope.players = [playerService.createPlayer('Player1'), playerService.createPlayer('Player2')];
+        }
+      ]);
+    }());
+  </script>
+</body>
+</html>

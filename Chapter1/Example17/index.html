@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+  <meta charset="utf-8" />
+  <title>Chapter1 Example17</title>
+  <script src="http://code.angularjs.org/1.2.15/angular.js"></script>
+</head>
+<body ng-controller="ExampleController">
+  <h1>Introduction</h1>
+  <label>My name:</label>
+  <input type="text" placeholder="Please enter name" ng-model="name">
+  <h3 ng-show="name">Hello! My name is {{getNameWithFilter()}} and today is {{today}}.</h3>
+  <script>
+  var myAppModule = angular.module('myApp', []);
+  myAppModule.controller('ExampleController', function ($scope, $filter) {
+    $scope.name = "Alex Pop";
+    $scope.getNameWithFilter = function(){
+      return $filter('uppercase')($scope.name);
+    };
+    $scope.today = $filter('date')(new Date(),'EEEE');
+  });
+  console.log(myAppModule.name);
+</script>
+</body>
+</html>

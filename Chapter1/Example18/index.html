@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+  <meta charset="utf-8" />
+  <title>Chapter1 Example18</title>
+  <script src="http://code.angularjs.org/1.2.15/angular.js"></script>
+</head>
+<body ng-controller="ExampleController">
+  <h1>Introduction</h1>
+  <label>My name:</label>
+  <input type="text" placeholder="Please enter name" ng-model="name">
+  <h3 ng-show="name">Hello! My name is {{name | customname}}.</h3>
+  <script>
+  var myAppModule = angular.module('myApp', []);
+  myAppModule.filter('customname', function () {
+    return function(name) {
+      name = name || '';
+      var customName = "";
+      for (var i = 0; i < name.length; i++) {
+        if(name.charAt(i) == "e") {
+          customName += "3";
+        }
+        else if(name.charAt(i) == "o") {
+          customName += "0";
+        }
+        else {
+          customName += name.charAt(i);
+        }
+      }
+      return customName;
+    };
+  });
+  myAppModule.controller('ExampleController', function ($scope) {
+    $scope.name = "Alex Pop";
+  });
+  console.log(myAppModule.name);
+</script>
+</body>
+</html>
