@@ -20,7 +20,7 @@
   <h3 ng-show="name">Hello! My name is {{name}}.</h3>
   <h3 ng-show="color">My favourite color is 
   <span title="{{color}}" style="background-color:{{color}};">&nbsp;&nbsp;</span>.</h3>
-  <div ng-show="colorChangeCount > 1">The favorite color was changed {{colorChangeCount}} times.</div>
+  <div ng-show="colorChangeCount > 0">The favorite color was changed {{colorChangeCount}} times.</div>
   <script>
     function ExampleController($scope) {
       $scope.colorChangeCount = 0;
