@@ -11,6 +11,8 @@
             <div class="col-md-12 text-center">
                 <h1>Game setup</h1>
             </div>
+        </div>
+        <div class="row">
             <div class="col-md-3">
                 <button class="button" ng-click="callwindowsetTimeout()">Call windows.setTimeout()</button>
             </div>
@@ -23,23 +25,26 @@
             <div class="col-md-3">
                 <button class="button" ng-click="reset()">Reset data</button>
             </div>
-            <div ng-show="players.length > 0" class="row">
-                <div class="col-md-6">
-                    <my-player player="players[0]" />
-                </div>
-                <div class="col-md-6">
-                    <my-player player="players[1]" />
-                </div>
+        </div>
+
+        <div ng-show="players.length > 0" class="row">
+            <div class="col-md-6">
+                <my-player player="players[0]" />
             </div>
-            <div ng-show="players.length == 0" class="row">
-                <div class="col-md-12 text-center">
-                    Creating players ...
-                </div>
+            <div class="col-md-6">
+                <my-player player="players[1]" />
             </div>
-            <script src="scripts/angular.js"></script>
-            <script src="scripts/app/app.js"></script>
-            <script src="scripts/app/services/playerService.js"></script>
-            <script src="scripts/app/controllers/exampleController.js"></script>
-            <script src="scripts/app/directives/myPlayer.js"></script>
+        </div>
+        <div ng-show="players.length == 0" class="row">
+            <div class="col-md-12 text-center">
+                Creating players ...
+            </div>
+        </div>
+    </div>
+    <script src="scripts/angular.js"></script>
+    <script src="scripts/app/app.js"></script>
+    <script src="scripts/app/services/playerService.js"></script>
+    <script src="scripts/app/controllers/exampleController.js"></script>
+    <script src="scripts/app/directives/myPlayer.js"></script>
 </body>
 </html>
