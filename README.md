@@ -6,14 +6,16 @@ Examples for the concepts introduced in the first three chapters from my book ["
 #Examples index
 
 ##Chapter 1:
+All examples apart from Example 1 are showcasing AngularJS components and patterns.   
+
 Example 1 - typical jQuery based form. [Source](Chapter1/Example1), [plnkr](http://plnkr.co/edit/nqF38J?p=preview)  
 Example 2 - AngularJS version of the jQuery based form with no JavaScript. [Source](Chapter1/Example2), [plnkr](http://plnkr.co/edit/UNRH3j?p=preview)  
-Example 3 - Introducing the AngularJS controller. [Source](Chapter1/Example3), [plnkr](http://plnkr.co/edit/qbNJm4?p=preview)  
-Example 4 - Introducing the AngularJS application module. [Source](Chapter1/Example4), [plnkr](http://plnkr.co/edit/yWVc96?p=preview)  
-Example 5 - AngularJS version of the jQuery based form with no JavaScript. [Source](Chapter1/Example5), [plnkr](http://plnkr.co/edit/UNRH3j?p=preview)  
-Example 6 - AngularJS version of the jQuery based form with no JavaScript. [Source](Chapter1/Example6), [plnkr](http://plnkr.co/edit/UNRH3j?p=preview)  
-Example 7 - AngularJS version of the jQuery based form with no JavaScript. [Source](Chapter1/Example7), [plnkr](http://plnkr.co/edit/UNRH3j?p=preview)  
-Example 8 - AngularJS version of the jQuery based form with no JavaScript. [Source](Chapter1/Example8), [plnkr](http://plnkr.co/edit/UNRH3j?p=preview)  
+Example 3 - Introducing the controller. [Source](Chapter1/Example3), [plnkr](http://plnkr.co/edit/qbNJm4?p=preview)  
+Example 4 - Introducing the application module. [Source](Chapter1/Example4), [plnkr](http://plnkr.co/edit/yWVc96?p=preview)  
+Example 5 - Application module using IIFE. [Source](Chapter1/Example5), [plnkr](http://plnkr.co/edit/hxVxHU?p=preview)  
+Example 6 - The revealing module pattern. [Source](Chapter1/Example6), [plnkr](http://plnkr.co/edit/YFvyEa?p=preview)  
+Example 7 - Explicit dependency injection. [Source](Chapter1/Example7), [plnkr](http://plnkr.co/edit/73Y9yf?p=preview)  
+Example 8 - Form with two controllers. [Source](Chapter1/Example8), [plnkr](http://plnkr.co/edit/gmyCY8?p=preview)  
 Example 9 - AngularJS version of the jQuery based form with no JavaScript. [Source](Chapter1/Example9), [plnkr](http://plnkr.co/edit/UNRH3j?p=preview)  
 Example 10 - AngularJS version of the jQuery based form with no JavaScript. [Source](Chapter1/Example10), [plnkr](http://plnkr.co/edit/UNRH3j?p=preview)  
 Example 11 - AngularJS version of the jQuery based form with no JavaScript. [Source](Chapter1/Example11), [plnkr](http://plnkr.co/edit/UNRH3j?p=preview)  
