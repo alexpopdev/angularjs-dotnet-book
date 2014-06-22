@@ -20,12 +20,14 @@ Example 9 - Form with with two controllers with a service encapsulating redundan
 Example 10 - The ngRepeat directive. [Source](Chapter1/Example10), [plnkr](http://plnkr.co/edit/ap8vhe?p=preview)  
 Example 11 - The ngRepeatStart and ngRepeatEnd directives. [Source](Chapter1/Example11), [plnkr](http://plnkr.co/edit/XP1Qpy?p=info)  
 Example 12 - The ngInclude directive. [Source](Chapter1/Example12), [plnkr](http://plnkr.co/edit/cm5le9?p=preview)  
-Example 13 - A simple custom directive. [Source](Chapter1/Example13), [plnkr](http://plnkr.co/edit/KSILvS?p=preview)  
-Example 14 - AngularJS version of the jQuery based form with no JavaScript. [Source](Chapter1/Example14), [plnkr](http://plnkr.co/edit/UNRH3j?p=preview)  
-Example 15 - AngularJS version of the jQuery based form with no JavaScript. [Source](Chapter1/Example15), [plnkr](http://plnkr.co/edit/UNRH3j?p=preview)  
-Example 16 - AngularJS version of the jQuery based form with no JavaScript. [Source](Chapter1/Example16), [plnkr](http://plnkr.co/edit/UNRH3j?p=preview)  
-Example 17 - AngularJS version of the jQuery based form with no JavaScript. [Source](Chapter1/Example17), [plnkr](http://plnkr.co/edit/UNRH3j?p=preview)  
-Example 18 - AngularJS version of the jQuery based form with no JavaScript. [Source](Chapter1/Example18), [plnkr](http://plnkr.co/edit/UNRH3j?p=preview)  
+###Custom directive
+Example 13 - Simple custom directive. [Source](Chapter1/Example13), [plnkr](http://plnkr.co/edit/KSILvS?p=preview)  
+Example 14 - Custom directive with isolated scope. [Source](Chapter1/Example14), [plnkr](http://plnkr.co/edit/OjvHhD?p=preview)  
+Example 15 - Custom directive with isolated scope and scope property. [Source](Chapter1/Example15), [plnkr](http://plnkr.co/edit/5shUaa?p=preview)  
+###Filters
+Example 16 - Filters. [Source](Chapter1/Example16), [plnkr](http://plnkr.co/edit/hN9PBZ?p=preview)  
+Example 17 - Filters executed in controller. [Source](Chapter1/Example17), [plnkr](http://plnkr.co/edit/CVYRe0?p=preview)  
+Example 18 - Custom filter. [Source](Chapter1/Example18), [plnkr](http://plnkr.co/edit/Sq0jGg?p=preview)  
 ##Chapter 2:
 Example 1 - typical jQuery based form. [Source](Chapter2/Example1)  
 Example 2 - typical jQuery based form. [Source](Chapter2/Example2)  
