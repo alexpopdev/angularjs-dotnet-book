@@ -7,7 +7,7 @@ Examples for the concepts introduced in the first three chapters from my book ["
 
 ##Chapter 1:
 All examples apart from Example 1 are showcasing AngularJS components and patterns.   
-
+###Fundamentals
 Example 1 - typical jQuery based form. [Source](Chapter1/Example1), [plnkr](http://plnkr.co/edit/nqF38J?p=preview)  
 Example 2 - AngularJS version of the jQuery based form with no JavaScript. [Source](Chapter1/Example2), [plnkr](http://plnkr.co/edit/UNRH3j?p=preview)  
 Example 3 - Introducing the controller. [Source](Chapter1/Example3), [plnkr](http://plnkr.co/edit/qbNJm4?p=preview)  
@@ -20,7 +20,7 @@ Example 9 - Form with with two controllers with a service encapsulating redundan
 Example 10 - The ngRepeat directive. [Source](Chapter1/Example10), [plnkr](http://plnkr.co/edit/ap8vhe?p=preview)  
 Example 11 - The ngRepeatStart and ngRepeatEnd directives. [Source](Chapter1/Example11), [plnkr](http://plnkr.co/edit/XP1Qpy?p=info)  
 Example 12 - The ngInclude directive. [Source](Chapter1/Example12), [plnkr](http://plnkr.co/edit/cm5le9?p=preview)  
-###Custom directive
+###Custom directives
 Example 13 - Simple custom directive. [Source](Chapter1/Example13), [plnkr](http://plnkr.co/edit/KSILvS?p=preview)  
 Example 14 - Custom directive with isolated scope. [Source](Chapter1/Example14), [plnkr](http://plnkr.co/edit/OjvHhD?p=preview)  
 Example 15 - Custom directive with isolated scope and scope property. [Source](Chapter1/Example15), [plnkr](http://plnkr.co/edit/5shUaa?p=preview)  
