@@ -16,7 +16,7 @@ Example 5 - Application module using IIFE. [Source](Chapter1/Example5), [plnkr](
 Example 6 - The revealing module pattern. [Source](Chapter1/Example6), [plnkr](http://plnkr.co/edit/YFvyEa?p=preview)  
 Example 7 - Explicit dependency injection. [Source](Chapter1/Example7), [plnkr](http://plnkr.co/edit/73Y9yf?p=preview)  
 Example 8 - Form with two controllers. [Source](Chapter1/Example8), [plnkr](http://plnkr.co/edit/gmyCY8?p=preview)  
-Example 9 - AngularJS version of the jQuery based form with no JavaScript. [Source](Chapter1/Example9), [plnkr](http://plnkr.co/edit/UNRH3j?p=preview)  
+Example 9 - Form with with two controllers with a service encapsulating redundant code. [Source](Chapter1/Example9), [plnkr](http://plnkr.co/edit/a4AwKj?p=preview)  
 Example 10 - AngularJS version of the jQuery based form with no JavaScript. [Source](Chapter1/Example10), [plnkr](http://plnkr.co/edit/UNRH3j?p=preview)  
 Example 11 - AngularJS version of the jQuery based form with no JavaScript. [Source](Chapter1/Example11), [plnkr](http://plnkr.co/edit/UNRH3j?p=preview)  
 Example 12 - AngularJS version of the jQuery based form with no JavaScript. [Source](Chapter1/Example12), [plnkr](http://plnkr.co/edit/UNRH3j?p=preview)  
