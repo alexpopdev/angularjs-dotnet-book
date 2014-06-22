@@ -6,7 +6,6 @@ Examples for the concepts introduced in the first three chapters from my book ["
 #Examples index
 
 ##Chapter 1:
-
 Example 1 - typical jQuery based form. [Source](Chapter1/Example1), [plnkr](http://plnkr.co/edit/nqF38J?p=preview)  
 Example 2 - AngularJS version of the jQuery based form with no JavaScript. [Source](Chapter1/Example2), [plnkr](http://plnkr.co/edit/UNRH3j?p=preview)  
 Example 3 - AngularJS version of the jQuery based form with no JavaScript. [Source](Chapter1/Example3), [plnkr](http://plnkr.co/edit/UNRH3j?p=preview)  
@@ -25,8 +24,16 @@ Example 15 - AngularJS version of the jQuery based form with no JavaScript. [Sou
 Example 16 - AngularJS version of the jQuery based form with no JavaScript. [Source](Chapter1/Example16), [plnkr](http://plnkr.co/edit/UNRH3j?p=preview)  
 Example 17 - AngularJS version of the jQuery based form with no JavaScript. [Source](Chapter1/Example17), [plnkr](http://plnkr.co/edit/UNRH3j?p=preview)  
 Example 18 - AngularJS version of the jQuery based form with no JavaScript. [Source](Chapter1/Example18), [plnkr](http://plnkr.co/edit/UNRH3j?p=preview)  
-
 ##Chapter 2:
-
+Example 1 - typical jQuery based form. [Source](Chapter2/Example1)  
+Example 2 - typical jQuery based form. [Source](Chapter2/Example2)  
+Example 3 - typical jQuery based form. [Source](Chapter2/Example3)  
+Example 4 - typical jQuery based form. [Source](Chapter2/Example4)  
+Example 5 - typical jQuery based form. [Source](Chapter2/Example5)  
+Example 6 - typical jQuery based form. [Source](Chapter2/Example6)  
+Example 7 - typical jQuery based form. [Source](Chapter2/Example7)  
 ##Chapter 3:
-
+Example 1 - typical jQuery based form. [Source](Chapter3/Example1)  
+Example 2 - typical jQuery based form. [Source](Chapter3/Example2)  
+Example 3 - typical jQuery based form. [Source](Chapter3/Example3)  
+Example 4 - typical jQuery based form. [Source](Chapter3/Example4)  
