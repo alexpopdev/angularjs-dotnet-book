@@ -6,7 +6,7 @@ namespace Example3.Web
     public class AppHost : AppHostBase
     {
         public AppHost()
-            : base("Chapter3 Example2", typeof (AppHost).Assembly)
+            : base("Chapter3 Example3", typeof (AppHost).Assembly)
         {
         }
 
