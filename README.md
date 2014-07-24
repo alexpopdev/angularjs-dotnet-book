@@ -4,7 +4,7 @@ angularjs-dotnet-book
 Examples for the concepts introduced in the first three chapters from my book "Learning AngularJS for .Net Developers" available to order [here](http://www.packtpub.com/learning-angularjs-for-net-developers/book).  
 There is another repository with the main application example from the same book available at  [github.com/popalexandruvasile/rentthatbike](https://github.com/popalexandruvasile/rentthatbike).  
 #Examples index  
-##Chapter 1:
+##Chapter 1: Introducing AngularJS
 All examples apart from Example 1 are showcasing AngularJS components and patterns.   
 ###Fundamentals
 Example 1 - typical jQuery based form. [Source](Chapter1/Example1), [plnkr](http://plnkr.co/edit/nqF38J?p=preview)  
@@ -27,7 +27,7 @@ Example 15 - Custom directive with isolated scope and scope property. [Source](C
 Example 16 - Filters. [Source](Chapter1/Example16), [plnkr](http://plnkr.co/edit/hN9PBZ?p=preview)  
 Example 17 - Filters executed in controller. [Source](Chapter1/Example17), [plnkr](http://plnkr.co/edit/CVYRe0?p=preview)  
 Example 18 - Custom filter. [Source](Chapter1/Example18), [plnkr](http://plnkr.co/edit/Sq0jGg?p=preview)  
-##Chapter 2:
+##Chapter 2: Creating an AngularJS Client-side Application in Visual Studio
 Example 1 - Chapter1 Example18 is converted to a Visual Studio ASP.NET Empty Web application project. [Source](Chapter2/Example1)  
 Example 2 - Using NuGet to manage AngularJS packages. [Source](Chapter2/Example2)  
 Example 3 - Using Bootstrap grid system. [Source](Chapter2/Example3)  
@@ -35,7 +35,7 @@ Example 4 - AngularJS code organization for medium projects. [Source](Chapter2/E
 Example 5 - AngularJS code organization for larger projects. [Source](Chapter2/Example5)  
 Example 6 - Integration with native browser API and $scope.$apply(). [Source](Chapter2/Example6)  
 Example 7 - AngularJS routing. [Source](Chapter2/Example7)  
-##Chapter 3:
+##Chapter 3: Creating .NET Web Services for AngularJS
 Example 1 - A ServiceStack barebones project. [Source](Chapter3/Example1)  
 Example 2 - Creating web services in ServiceStack and calling them using the C# client. [Source](Chapter3/Example2)  
 Example 3 - Global request filter in ServiceStack. [Source](Chapter3/Example3)  
