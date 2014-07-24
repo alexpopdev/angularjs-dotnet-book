@@ -1,7 +1,8 @@
 angularjs-dotnet-book
 =====================
 
-Examples for the concepts introduced in the first three chapters from my book ["Learning AngularJS for .Net Developers"](http://www.packtpub.com/learning-angularjs-for-net-developers/book)
+Examples for the concepts introduced in the first three chapters from my book "Learning AngularJS for .Net Developers" available to order [here](http://www.packtpub.com/learning-angularjs-for-net-developers/book).  
+There is another repository with the main application example from the same book available at  [github.com/popalexandruvasile/rentthatbike](https://github.com/popalexandruvasile/rentthatbike).
 
 #Examples index
 
