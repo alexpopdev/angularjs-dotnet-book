@@ -2,7 +2,7 @@ angularjs-dotnet-book
 =====================
 
 Examples for the concepts introduced in the first three chapters from my book "Learning AngularJS for .Net Developers" available to order [here](http://bit.ly/1kbcAdf).  
-There is another repository with the main application example from the same book available at  [github.com/popalexandruvasile/rentthatbike](https://github.com/popalexandruvasile/rentthatbike).  
+There is another repository with the main application example from the same book covering the last three chapters available at  [github.com/popalexandruvasile/rentthatbike](https://github.com/popalexandruvasile/rentthatbike).  
 There are two blog posts introducing this book:  
 [Announcing my upcoming book "Learning AngularJS for .NET developers"](http://alexvpop.blogspot.co.uk/2014/06/announcing-learning-angularjs-dotnet.html)  
 [Free sample chapter "Testing and Debugging AngularJS Applications" from my recently launched book](http://alexvpop.blogspot.com/2014/07/free-sample-chapter-testing-angularjs.html)  
